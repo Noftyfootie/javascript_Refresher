@@ -1,4 +1,4 @@
-# JavaScript Refresh & Modern ES6 Concepts
+# JavaScript Refresh and Modern ES6 Concepts
 
 A minimalist, interactive web sandbox built with HTML5 and Tailwind CSS to practice and visualize core JavaScript and ES6 fundamentals. The webpage provides a sleek user interface, while the underlying logic outputs structured results directly to your browser's developer tools.
 
