@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Javascript Refresh</title>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen bg-cyan-400"
+  >
+    <h1 class="text-6xl font-bold mb-4 border-b">Javascript Refresh</h1>
+    <ul class="text-center text-xl mb-6">
+      <li>ES6 features</li>
+      <li>Scope</li>
+      <li>let</li>
+      <li>const</li>
+      <li>Arrow function</li>
+      <li>Array(map, filter, reduce, forEach)</li>
+      <li>Objects</li>
+    </ul>
+    <div
+      id="array-container"
+      class="bg-white p-6 rounded-2xl shadow-xl max-w-md w-full mb-6"
+    >
+      <h2 class="text-xl font-bold text-gray-800 mb-3 border-b pb-2">
+        Dynamically Rendered Array:
+      </h2>
+      <ul id="fruit-list" class="space-y-2 font-medium text-gray-750"></ul>
+    </div>
+    <p
+      class="text-lg font-medium text-gray-800 bg-white/50 px-4 py-1.5 rounded-full shadow-xs"
+    >
+      Check the console to see the output
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
