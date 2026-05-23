@@ -73,7 +73,7 @@ console.log("Reduced (Total Sum):", sum);
 
 console.groupEnd();
 
-// 1. Define a simple array of study topics or data
+// 1. Define a simple array of study topics
 const topics = [
   "HTML5 Layouts",
   "Tailwind Utilities",
@@ -115,3 +115,5 @@ topics.forEach((topic, index) => {
   // Append the newly created tag intoHTML container
   listContainer.appendChild(listItem);
 });
+
+console.log();
